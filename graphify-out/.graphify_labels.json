@@ -16,5 +16,8 @@
   "14": "PhaserGameEngine.test.ts",
   "15": "package.json",
   "16": "compilerOptions",
-  "17": "devDependencies"
+  "17": "devDependencies",
+  "18": "AssetCache",
+  "19": "tsconfig.json",
+  "20": "PhaserGameEngine"
 }

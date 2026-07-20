@@ -193,5 +193,40 @@
     "mtime": 1784561396.9809816,
     "ast_hash": "045071c45148cfceda8a3e1956c652bc",
     "semantic_hash": ""
+  },
+  "packages/asset-loader/package.json": {
+    "mtime": 1784567550.9809208,
+    "ast_hash": "19945ee238e962d995c4900750fbf6b3",
+    "semantic_hash": ""
+  },
+  "packages/asset-loader/src/AssetCache.test.ts": {
+    "mtime": 1784567646.161438,
+    "ast_hash": "6a6abfb441f815038740f9ffe854f710",
+    "semantic_hash": ""
+  },
+  "packages/asset-loader/src/AssetCache.ts": {
+    "mtime": 1784567587.9691224,
+    "ast_hash": "3e9ea1f99982840111d1215d33843825",
+    "semantic_hash": ""
+  },
+  "packages/asset-loader/src/AssetLoader.test.ts": {
+    "mtime": 1784567632.513364,
+    "ast_hash": "cb0320cb3f7dc12d0c344006dd28917d",
+    "semantic_hash": ""
+  },
+  "packages/asset-loader/src/AssetLoader.ts": {
+    "mtime": 1784567599.7051861,
+    "ast_hash": "78afc30d7da0acbbfc661d41a65c2e39",
+    "semantic_hash": ""
+  },
+  "packages/asset-loader/src/index.ts": {
+    "mtime": 1784567606.2412217,
+    "ast_hash": "f8d05447d48571baf2fdba001d91f4a9",
+    "semantic_hash": ""
+  },
+  "packages/asset-loader/tsconfig.json": {
+    "mtime": 1784567559.2409658,
+    "ast_hash": "60fd51c2fb40a2a81208ce041ee5ddd7",
+    "semantic_hash": ""
   }
 }

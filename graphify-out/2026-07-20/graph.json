@@ -530,7 +530,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_scenemanager_test",
-      "community": 3,
+      "community": 1,
       "norm_label": "scenemanager.test.ts"
     },
     {
@@ -540,7 +540,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "packages_core_src_scenemanager_test_createscene",
-      "community": 3,
+      "community": 1,
       "norm_label": "createscene()"
     },
     {
@@ -550,7 +550,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_scenemanager",
-      "community": 3,
+      "community": 1,
       "norm_label": "scenemanager.ts"
     },
     {
@@ -560,7 +560,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_scenemanager_scene",
-      "community": 3,
+      "community": 1,
       "norm_label": "scene"
     },
     {
@@ -570,7 +570,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "packages_core_src_scenemanager_scene_init",
-      "community": 3,
+      "community": 1,
       "norm_label": ".init()"
     },
     {
@@ -580,7 +580,7 @@
       "source_location": "L4",
       "_origin": "ast",
       "id": "packages_core_src_scenemanager_scene_update",
-      "community": 3,
+      "community": 1,
       "norm_label": ".update()"
     },
     {
@@ -590,7 +590,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "packages_core_src_scenemanager_scene_destroy",
-      "community": 3,
+      "community": 1,
       "norm_label": ".destroy()"
     },
     {
@@ -600,7 +600,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "packages_core_src_scenemanager_scenenotregisterederror",
-      "community": 3,
+      "community": 1,
       "norm_label": "scenenotregisterederror"
     },
     {
@@ -610,7 +610,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "packages_core_src_scenemanager_scenenotregisterederror_constructor",
-      "community": 3,
+      "community": 1,
       "norm_label": ".constructor()"
     },
     {
@@ -620,7 +620,7 @@
       "source_location": "L15",
       "_origin": "ast",
       "id": "packages_core_src_scenemanager_scenemanager",
-      "community": 3,
+      "community": 1,
       "norm_label": "scenemanager"
     },
     {
@@ -630,7 +630,7 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "packages_core_src_scenemanager_scenemanager_register",
-      "community": 3,
+      "community": 1,
       "norm_label": ".register()"
     },
     {
@@ -640,7 +640,7 @@
       "source_location": "L23",
       "_origin": "ast",
       "id": "packages_core_src_scenemanager_scenemanager_unregister",
-      "community": 3,
+      "community": 1,
       "norm_label": ".unregister()"
     },
     {
@@ -650,7 +650,7 @@
       "source_location": "L31",
       "_origin": "ast",
       "id": "packages_core_src_scenemanager_scenemanager_activate",
-      "community": 3,
+      "community": 1,
       "norm_label": ".activate()"
     },
     {
@@ -660,7 +660,7 @@
       "source_location": "L41",
       "_origin": "ast",
       "id": "packages_core_src_scenemanager_scenemanager_getactivescene",
-      "community": 3,
+      "community": 1,
       "norm_label": ".getactivescene()"
     },
     {
@@ -670,7 +670,7 @@
       "source_location": "L46",
       "_origin": "ast",
       "id": "packages_core_src_scenemanager_scenemanager_update",
-      "community": 3,
+      "community": 1,
       "norm_label": ".update()"
     },
     {
@@ -1230,7 +1230,7 @@
       "source_location": "L22",
       "_origin": "ast",
       "id": "packages_phaser_adapter_src_phasergameengine_phasergameengine",
-      "community": 13,
+      "community": 11,
       "norm_label": "phasergameengine"
     },
     {
@@ -1240,7 +1240,7 @@
       "source_location": "L28",
       "_origin": "ast",
       "id": "packages_phaser_adapter_src_phasergameengine_phasergameengine_constructor",
-      "community": 13,
+      "community": 11,
       "norm_label": ".constructor()"
     },
     {
@@ -1250,7 +1250,7 @@
       "source_location": "L43",
       "_origin": "ast",
       "id": "packages_phaser_adapter_src_phasergameengine_phasergameengine_handlesceneready",
-      "community": 13,
+      "community": 11,
       "norm_label": ".handlesceneready()"
     },
     {
@@ -1260,7 +1260,7 @@
       "source_location": "L48",
       "_origin": "ast",
       "id": "packages_phaser_adapter_src_phasergameengine_phasergameengine_requirescene",
-      "community": 13,
+      "community": 11,
       "norm_label": ".requirescene()"
     },
     {
@@ -1270,7 +1270,7 @@
       "source_location": "L55",
       "_origin": "ast",
       "id": "packages_phaser_adapter_src_phasergameengine_phasergameengine_requireobject",
-      "community": 13,
+      "community": 11,
       "norm_label": ".requireobject()"
     },
     {
@@ -1280,7 +1280,7 @@
       "source_location": "L63",
       "_origin": "ast",
       "id": "packages_phaser_adapter_src_phasergameengine_phasergameengine_onsceneready",
-      "community": 13,
+      "community": 11,
       "norm_label": ".onsceneready()"
     },
     {
@@ -1290,7 +1290,7 @@
       "source_location": "L71",
       "_origin": "ast",
       "id": "packages_phaser_adapter_src_phasergameengine_phasergameengine_loadasset",
-      "community": 13,
+      "community": 11,
       "norm_label": ".loadasset()"
     },
     {
@@ -1300,7 +1300,7 @@
       "source_location": "L85",
       "_origin": "ast",
       "id": "packages_phaser_adapter_src_phasergameengine_phasergameengine_enqueueasset",
-      "community": 13,
+      "community": 11,
       "norm_label": ".enqueueasset()"
     },
     {
@@ -1310,7 +1310,7 @@
       "source_location": "L107",
       "_origin": "ast",
       "id": "packages_phaser_adapter_src_phasergameengine_phasergameengine_render",
-      "community": 13,
+      "community": 11,
       "norm_label": ".render()"
     },
     {
@@ -1320,7 +1320,7 @@
       "source_location": "L118",
       "_origin": "ast",
       "id": "packages_phaser_adapter_src_phasergameengine_phasergameengine_play",
-      "community": 13,
+      "community": 11,
       "norm_label": ".play()"
     },
     {
@@ -1330,7 +1330,7 @@
       "source_location": "L126",
       "_origin": "ast",
       "id": "packages_phaser_adapter_src_phasergameengine_phasergameengine_animate",
-      "community": 13,
+      "community": 11,
       "norm_label": ".animate()"
     },
     {
@@ -1340,7 +1340,7 @@
       "source_location": "L142",
       "_origin": "ast",
       "id": "packages_phaser_adapter_src_phasergameengine_phasergameengine_destroyobject",
-      "community": 13,
+      "community": 11,
       "norm_label": ".destroyobject()"
     },
     {
@@ -1882,6 +1882,1106 @@
       "id": "packages_types_tsconfig_json_ref_src",
       "community": 7,
       "norm_label": "src"
+    },
+    {
+      "label": "package.json",
+      "file_type": "code",
+      "source_file": "services/asset-service/package.json",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "services_asset_service_package",
+      "community": 15,
+      "norm_label": "package.json"
+    },
+    {
+      "label": "name",
+      "file_type": "code",
+      "source_file": "services/asset-service/package.json",
+      "source_location": "L2",
+      "_origin": "ast",
+      "id": "services_asset_service_package_name",
+      "community": 15,
+      "norm_label": "name"
+    },
+    {
+      "label": "version",
+      "file_type": "code",
+      "source_file": "services/asset-service/package.json",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "services_asset_service_package_version",
+      "community": 15,
+      "norm_label": "version"
+    },
+    {
+      "label": "private",
+      "file_type": "code",
+      "source_file": "services/asset-service/package.json",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "services_asset_service_package_private",
+      "community": 15,
+      "norm_label": "private"
+    },
+    {
+      "label": "description",
+      "file_type": "code",
+      "source_file": "services/asset-service/package.json",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "services_asset_service_package_description",
+      "community": 15,
+      "norm_label": "description"
+    },
+    {
+      "label": "type",
+      "file_type": "code",
+      "source_file": "services/asset-service/package.json",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "services_asset_service_package_type",
+      "community": 15,
+      "norm_label": "type"
+    },
+    {
+      "label": "main",
+      "file_type": "code",
+      "source_file": "services/asset-service/package.json",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "services_asset_service_package_main",
+      "community": 15,
+      "norm_label": "main"
+    },
+    {
+      "label": "types",
+      "file_type": "code",
+      "source_file": "services/asset-service/package.json",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "services_asset_service_package_types",
+      "community": 15,
+      "norm_label": "types"
+    },
+    {
+      "label": "scripts",
+      "file_type": "code",
+      "source_file": "services/asset-service/package.json",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "services_asset_service_package_scripts",
+      "community": 15,
+      "norm_label": "scripts"
+    },
+    {
+      "label": "build",
+      "file_type": "code",
+      "source_file": "services/asset-service/package.json",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "services_asset_service_package_scripts_build",
+      "community": 15,
+      "norm_label": "build"
+    },
+    {
+      "label": "typecheck",
+      "file_type": "code",
+      "source_file": "services/asset-service/package.json",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "services_asset_service_package_scripts_typecheck",
+      "community": 15,
+      "norm_label": "typecheck"
+    },
+    {
+      "label": "test",
+      "file_type": "code",
+      "source_file": "services/asset-service/package.json",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "services_asset_service_package_scripts_test",
+      "community": 15,
+      "norm_label": "test"
+    },
+    {
+      "label": "start",
+      "file_type": "code",
+      "source_file": "services/asset-service/package.json",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "services_asset_service_package_scripts_start",
+      "community": 15,
+      "norm_label": "start"
+    },
+    {
+      "label": "dependencies",
+      "file_type": "code",
+      "source_file": "services/asset-service/package.json",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "services_asset_service_package_dependencies",
+      "community": 15,
+      "norm_label": "dependencies"
+    },
+    {
+      "label": "express",
+      "file_type": "code",
+      "source_file": "services/asset-service/package.json",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "services_asset_service_package_dependencies_express",
+      "community": 15,
+      "norm_label": "express"
+    },
+    {
+      "label": "express",
+      "file_type": "concept",
+      "source_file": "services/asset-service/package.json",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "express",
+      "community": 15,
+      "norm_label": "express"
+    },
+    {
+      "label": "multer",
+      "file_type": "code",
+      "source_file": "services/asset-service/package.json",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "services_asset_service_package_dependencies_multer",
+      "community": 15,
+      "norm_label": "multer"
+    },
+    {
+      "label": "multer",
+      "file_type": "concept",
+      "source_file": "services/asset-service/package.json",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "multer",
+      "community": 15,
+      "norm_label": "multer"
+    },
+    {
+      "label": "sharp",
+      "file_type": "code",
+      "source_file": "services/asset-service/package.json",
+      "source_location": "L18",
+      "_origin": "ast",
+      "id": "services_asset_service_package_dependencies_sharp",
+      "community": 15,
+      "norm_label": "sharp"
+    },
+    {
+      "label": "sharp",
+      "file_type": "concept",
+      "source_file": "services/asset-service/package.json",
+      "source_location": "L18",
+      "_origin": "ast",
+      "id": "sharp",
+      "community": 15,
+      "norm_label": "sharp"
+    },
+    {
+      "label": "devDependencies",
+      "file_type": "code",
+      "source_file": "services/asset-service/package.json",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "services_asset_service_package_devdependencies",
+      "community": 17,
+      "norm_label": "devdependencies"
+    },
+    {
+      "label": "@types/express",
+      "file_type": "code",
+      "source_file": "services/asset-service/package.json",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "services_asset_service_package_devdependencies_types_express",
+      "community": 17,
+      "norm_label": "@types/express"
+    },
+    {
+      "label": "@types/express",
+      "file_type": "concept",
+      "source_file": "services/asset-service/package.json",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "types_express",
+      "community": 17,
+      "norm_label": "@types/express"
+    },
+    {
+      "label": "@types/multer",
+      "file_type": "code",
+      "source_file": "services/asset-service/package.json",
+      "source_location": "L22",
+      "_origin": "ast",
+      "id": "services_asset_service_package_devdependencies_types_multer",
+      "community": 17,
+      "norm_label": "@types/multer"
+    },
+    {
+      "label": "@types/multer",
+      "file_type": "concept",
+      "source_file": "services/asset-service/package.json",
+      "source_location": "L22",
+      "_origin": "ast",
+      "id": "types_multer",
+      "community": 17,
+      "norm_label": "@types/multer"
+    },
+    {
+      "label": "@types/node",
+      "file_type": "code",
+      "source_file": "services/asset-service/package.json",
+      "source_location": "L23",
+      "_origin": "ast",
+      "id": "services_asset_service_package_devdependencies_types_node",
+      "community": 17,
+      "norm_label": "@types/node"
+    },
+    {
+      "label": "@types/node",
+      "file_type": "concept",
+      "source_file": "services/asset-service/package.json",
+      "source_location": "L23",
+      "_origin": "ast",
+      "id": "types_node",
+      "community": 17,
+      "norm_label": "@types/node"
+    },
+    {
+      "label": "@types/supertest",
+      "file_type": "code",
+      "source_file": "services/asset-service/package.json",
+      "source_location": "L24",
+      "_origin": "ast",
+      "id": "services_asset_service_package_devdependencies_types_supertest",
+      "community": 17,
+      "norm_label": "@types/supertest"
+    },
+    {
+      "label": "@types/supertest",
+      "file_type": "concept",
+      "source_file": "services/asset-service/package.json",
+      "source_location": "L24",
+      "_origin": "ast",
+      "id": "types_supertest",
+      "community": 17,
+      "norm_label": "@types/supertest"
+    },
+    {
+      "label": "supertest",
+      "file_type": "code",
+      "source_file": "services/asset-service/package.json",
+      "source_location": "L25",
+      "_origin": "ast",
+      "id": "services_asset_service_package_devdependencies_supertest",
+      "community": 17,
+      "norm_label": "supertest"
+    },
+    {
+      "label": "supertest",
+      "file_type": "concept",
+      "source_file": "services/asset-service/package.json",
+      "source_location": "L25",
+      "_origin": "ast",
+      "id": "supertest",
+      "community": 17,
+      "norm_label": "supertest"
+    },
+    {
+      "label": "typescript",
+      "file_type": "code",
+      "source_file": "services/asset-service/package.json",
+      "source_location": "L26",
+      "_origin": "ast",
+      "id": "services_asset_service_package_devdependencies_typescript",
+      "community": 17,
+      "norm_label": "typescript"
+    },
+    {
+      "label": "typescript",
+      "file_type": "concept",
+      "source_file": "services/asset-service/package.json",
+      "source_location": "L26",
+      "_origin": "ast",
+      "id": "services_asset_service_package_json_typescript",
+      "community": 17,
+      "norm_label": "typescript"
+    },
+    {
+      "label": "vitest",
+      "file_type": "code",
+      "source_file": "services/asset-service/package.json",
+      "source_location": "L27",
+      "_origin": "ast",
+      "id": "services_asset_service_package_devdependencies_vitest",
+      "community": 17,
+      "norm_label": "vitest"
+    },
+    {
+      "label": "vitest",
+      "file_type": "concept",
+      "source_file": "services/asset-service/package.json",
+      "source_location": "L27",
+      "_origin": "ast",
+      "id": "services_asset_service_package_json_vitest",
+      "community": 17,
+      "norm_label": "vitest"
+    },
+    {
+      "label": "adminAuth.ts",
+      "file_type": "code",
+      "source_file": "services/asset-service/src/adminAuth.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "services_asset_service_src_adminauth",
+      "community": 13,
+      "norm_label": "adminauth.ts"
+    },
+    {
+      "label": "createAdminAuthMiddleware()",
+      "file_type": "code",
+      "source_file": "services/asset-service/src/adminAuth.ts",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "services_asset_service_src_adminauth_createadminauthmiddleware",
+      "community": 13,
+      "norm_label": "createadminauthmiddleware()"
+    },
+    {
+      "label": "app.test.ts",
+      "file_type": "code",
+      "source_file": "services/asset-service/src/app.test.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "services_asset_service_src_app_test",
+      "community": 3,
+      "norm_label": "app.test.ts"
+    },
+    {
+      "label": "FakeAssetStorage",
+      "file_type": "code",
+      "source_file": "services/asset-service/src/app.test.ts",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "services_asset_service_src_app_test_fakeassetstorage",
+      "community": 3,
+      "norm_label": "fakeassetstorage"
+    },
+    {
+      "label": ".seed()",
+      "file_type": "code",
+      "source_file": "services/asset-service/src/app.test.ts",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "services_asset_service_src_app_test_fakeassetstorage_seed",
+      "community": 3,
+      "norm_label": ".seed()"
+    },
+    {
+      "label": ".save()",
+      "file_type": "code",
+      "source_file": "services/asset-service/src/app.test.ts",
+      "source_location": "L18",
+      "_origin": "ast",
+      "id": "services_asset_service_src_app_test_fakeassetstorage_save",
+      "community": 3,
+      "norm_label": ".save()"
+    },
+    {
+      "label": ".get()",
+      "file_type": "code",
+      "source_file": "services/asset-service/src/app.test.ts",
+      "source_location": "L29",
+      "_origin": "ast",
+      "id": "services_asset_service_src_app_test_fakeassetstorage_get",
+      "community": 3,
+      "norm_label": ".get()"
+    },
+    {
+      "label": ".getPreview()",
+      "file_type": "code",
+      "source_file": "services/asset-service/src/app.test.ts",
+      "source_location": "L33",
+      "_origin": "ast",
+      "id": "services_asset_service_src_app_test_fakeassetstorage_getpreview",
+      "community": 3,
+      "norm_label": ".getpreview()"
+    },
+    {
+      "label": ".list()",
+      "file_type": "code",
+      "source_file": "services/asset-service/src/app.test.ts",
+      "source_location": "L37",
+      "_origin": "ast",
+      "id": "services_asset_service_src_app_test_fakeassetstorage_list",
+      "community": 3,
+      "norm_label": ".list()"
+    },
+    {
+      "label": "app.ts",
+      "file_type": "code",
+      "source_file": "services/asset-service/src/app.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "services_asset_service_src_app",
+      "community": 13,
+      "norm_label": "app.ts"
+    },
+    {
+      "label": "CreateAppOptions",
+      "file_type": "code",
+      "source_file": "services/asset-service/src/app.ts",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "services_asset_service_src_app_createappoptions",
+      "community": 13,
+      "norm_label": "createappoptions"
+    },
+    {
+      "label": "createApp()",
+      "file_type": "code",
+      "source_file": "services/asset-service/src/app.ts",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "services_asset_service_src_app_createapp",
+      "community": 13,
+      "norm_label": "createapp()"
+    },
+    {
+      "label": "asyncHandler.ts",
+      "file_type": "code",
+      "source_file": "services/asset-service/src/asyncHandler.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "services_asset_service_src_asynchandler",
+      "community": 13,
+      "norm_label": "asynchandler.ts"
+    },
+    {
+      "label": "AsyncRouteHandler",
+      "file_type": "code",
+      "source_file": "services/asset-service/src/asyncHandler.ts",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "services_asset_service_src_asynchandler_asyncroutehandler",
+      "community": 13,
+      "norm_label": "asyncroutehandler"
+    },
+    {
+      "label": "asyncHandler()",
+      "file_type": "code",
+      "source_file": "services/asset-service/src/asyncHandler.ts",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "services_asset_service_src_asynchandler_asynchandler",
+      "community": 13,
+      "norm_label": "asynchandler()"
+    },
+    {
+      "label": "errors.ts",
+      "file_type": "code",
+      "source_file": "services/asset-service/src/errors.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "services_asset_service_src_errors",
+      "community": 13,
+      "norm_label": "errors.ts"
+    },
+    {
+      "label": "AssetNotFoundError",
+      "file_type": "code",
+      "source_file": "services/asset-service/src/errors.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "services_asset_service_src_errors_assetnotfounderror",
+      "community": 13,
+      "norm_label": "assetnotfounderror"
+    },
+    {
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "services/asset-service/src/errors.ts",
+      "source_location": "L2",
+      "_origin": "ast",
+      "id": "services_asset_service_src_errors_assetnotfounderror_constructor",
+      "community": 13,
+      "norm_label": ".constructor()"
+    },
+    {
+      "label": "InvalidAssetIdError",
+      "file_type": "code",
+      "source_file": "services/asset-service/src/errors.ts",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "services_asset_service_src_errors_invalidassetiderror",
+      "community": 13,
+      "norm_label": "invalidassetiderror"
+    },
+    {
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "services/asset-service/src/errors.ts",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "services_asset_service_src_errors_invalidassetiderror_constructor",
+      "community": 13,
+      "norm_label": ".constructor()"
+    },
+    {
+      "label": "MissingAdminApiKeyError",
+      "file_type": "code",
+      "source_file": "services/asset-service/src/errors.ts",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "services_asset_service_src_errors_missingadminapikeyerror",
+      "community": 13,
+      "norm_label": "missingadminapikeyerror"
+    },
+    {
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "services/asset-service/src/errors.ts",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "services_asset_service_src_errors_missingadminapikeyerror_constructor",
+      "community": 13,
+      "norm_label": ".constructor()"
+    },
+    {
+      "label": "index.ts",
+      "file_type": "code",
+      "source_file": "services/asset-service/src/index.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "services_asset_service_src_index",
+      "community": 13,
+      "norm_label": "index.ts"
+    },
+    {
+      "label": "port",
+      "file_type": "code",
+      "source_file": "services/asset-service/src/index.ts",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "services_asset_service_src_index_port",
+      "community": 13,
+      "norm_label": "port"
+    },
+    {
+      "label": "storage",
+      "file_type": "code",
+      "source_file": "services/asset-service/src/index.ts",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "services_asset_service_src_index_storage",
+      "community": 13,
+      "norm_label": "storage"
+    },
+    {
+      "label": "app",
+      "file_type": "code",
+      "source_file": "services/asset-service/src/index.ts",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "services_asset_service_src_index_app",
+      "community": 13,
+      "norm_label": "app"
+    },
+    {
+      "label": "assets.ts",
+      "file_type": "code",
+      "source_file": "services/asset-service/src/routes/assets.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "services_asset_service_src_routes_assets",
+      "community": 13,
+      "norm_label": "assets.ts"
+    },
+    {
+      "label": "createAssetsRouter()",
+      "file_type": "code",
+      "source_file": "services/asset-service/src/routes/assets.ts",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "services_asset_service_src_routes_assets_createassetsrouter",
+      "community": 13,
+      "norm_label": "createassetsrouter()"
+    },
+    {
+      "label": "upload.ts",
+      "file_type": "code",
+      "source_file": "services/asset-service/src/routes/upload.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "services_asset_service_src_routes_upload",
+      "community": 13,
+      "norm_label": "upload.ts"
+    },
+    {
+      "label": "upload",
+      "file_type": "code",
+      "source_file": "services/asset-service/src/routes/upload.ts",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "services_asset_service_src_routes_upload_upload",
+      "community": 13,
+      "norm_label": "upload"
+    },
+    {
+      "label": "createUploadRouter()",
+      "file_type": "code",
+      "source_file": "services/asset-service/src/routes/upload.ts",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "services_asset_service_src_routes_upload_createuploadrouter",
+      "community": 13,
+      "norm_label": "createuploadrouter()"
+    },
+    {
+      "label": "AssetStorage.ts",
+      "file_type": "code",
+      "source_file": "services/asset-service/src/storage/AssetStorage.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "services_asset_service_src_storage_assetstorage",
+      "community": 3,
+      "norm_label": "assetstorage.ts"
+    },
+    {
+      "label": "AssetStorage",
+      "file_type": "code",
+      "source_file": "services/asset-service/src/storage/AssetStorage.ts",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "services_asset_service_src_storage_assetstorage_assetstorage",
+      "community": 3,
+      "norm_label": "assetstorage"
+    },
+    {
+      "label": ".save()",
+      "file_type": "code",
+      "source_file": "services/asset-service/src/storage/AssetStorage.ts",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "services_asset_service_src_storage_assetstorage_assetstorage_save",
+      "community": 3,
+      "norm_label": ".save()"
+    },
+    {
+      "label": ".get()",
+      "file_type": "code",
+      "source_file": "services/asset-service/src/storage/AssetStorage.ts",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "services_asset_service_src_storage_assetstorage_assetstorage_get",
+      "community": 3,
+      "norm_label": ".get()"
+    },
+    {
+      "label": ".getPreview()",
+      "file_type": "code",
+      "source_file": "services/asset-service/src/storage/AssetStorage.ts",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "services_asset_service_src_storage_assetstorage_assetstorage_getpreview",
+      "community": 13,
+      "norm_label": ".getpreview()"
+    },
+    {
+      "label": ".list()",
+      "file_type": "code",
+      "source_file": "services/asset-service/src/storage/AssetStorage.ts",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "services_asset_service_src_storage_assetstorage_assetstorage_list",
+      "community": 3,
+      "norm_label": ".list()"
+    },
+    {
+      "label": "LocalDiskStorage.test.ts",
+      "file_type": "code",
+      "source_file": "services/asset-service/src/storage/LocalDiskStorage.test.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "services_asset_service_src_storage_localdiskstorage_test",
+      "community": 3,
+      "norm_label": "localdiskstorage.test.ts"
+    },
+    {
+      "label": "createPngBuffer()",
+      "file_type": "code",
+      "source_file": "services/asset-service/src/storage/LocalDiskStorage.test.ts",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "services_asset_service_src_storage_localdiskstorage_test_createpngbuffer",
+      "community": 3,
+      "norm_label": "createpngbuffer()"
+    },
+    {
+      "label": "LocalDiskStorage.ts",
+      "file_type": "code",
+      "source_file": "services/asset-service/src/storage/LocalDiskStorage.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "services_asset_service_src_storage_localdiskstorage",
+      "community": 3,
+      "norm_label": "localdiskstorage.ts"
+    },
+    {
+      "label": "LocalDiskStorage",
+      "file_type": "code",
+      "source_file": "services/asset-service/src/storage/LocalDiskStorage.ts",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "services_asset_service_src_storage_localdiskstorage_localdiskstorage",
+      "community": 3,
+      "norm_label": "localdiskstorage"
+    },
+    {
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "services/asset-service/src/storage/LocalDiskStorage.ts",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "services_asset_service_src_storage_localdiskstorage_localdiskstorage_constructor",
+      "community": 3,
+      "norm_label": ".constructor()"
+    },
+    {
+      "label": ".save()",
+      "file_type": "code",
+      "source_file": "services/asset-service/src/storage/LocalDiskStorage.ts",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "services_asset_service_src_storage_localdiskstorage_localdiskstorage_save",
+      "community": 3,
+      "norm_label": ".save()"
+    },
+    {
+      "label": ".get()",
+      "file_type": "code",
+      "source_file": "services/asset-service/src/storage/LocalDiskStorage.ts",
+      "source_location": "L37",
+      "_origin": "ast",
+      "id": "services_asset_service_src_storage_localdiskstorage_localdiskstorage_get",
+      "community": 3,
+      "norm_label": ".get()"
+    },
+    {
+      "label": ".getPreview()",
+      "file_type": "code",
+      "source_file": "services/asset-service/src/storage/LocalDiskStorage.ts",
+      "source_location": "L46",
+      "_origin": "ast",
+      "id": "services_asset_service_src_storage_localdiskstorage_localdiskstorage_getpreview",
+      "community": 3,
+      "norm_label": ".getpreview()"
+    },
+    {
+      "label": ".list()",
+      "file_type": "code",
+      "source_file": "services/asset-service/src/storage/LocalDiskStorage.ts",
+      "source_location": "L52",
+      "_origin": "ast",
+      "id": "services_asset_service_src_storage_localdiskstorage_localdiskstorage_list",
+      "community": 3,
+      "norm_label": ".list()"
+    },
+    {
+      "label": ".writePreview()",
+      "file_type": "code",
+      "source_file": "services/asset-service/src/storage/LocalDiskStorage.ts",
+      "source_location": "L58",
+      "_origin": "ast",
+      "id": "services_asset_service_src_storage_localdiskstorage_localdiskstorage_writepreview",
+      "community": 3,
+      "norm_label": ".writepreview()"
+    },
+    {
+      "label": ".extractImageDimensions()",
+      "file_type": "code",
+      "source_file": "services/asset-service/src/storage/LocalDiskStorage.ts",
+      "source_location": "L66",
+      "_origin": "ast",
+      "id": "services_asset_service_src_storage_localdiskstorage_localdiskstorage_extractimagedimensions",
+      "community": 3,
+      "norm_label": ".extractimagedimensions()"
+    },
+    {
+      "label": ".readManifest()",
+      "file_type": "code",
+      "source_file": "services/asset-service/src/storage/LocalDiskStorage.ts",
+      "source_location": "L75",
+      "_origin": "ast",
+      "id": "services_asset_service_src_storage_localdiskstorage_localdiskstorage_readmanifest",
+      "community": 3,
+      "norm_label": ".readmanifest()"
+    },
+    {
+      "label": ".writeManifest()",
+      "file_type": "code",
+      "source_file": "services/asset-service/src/storage/LocalDiskStorage.ts",
+      "source_location": "L82",
+      "_origin": "ast",
+      "id": "services_asset_service_src_storage_localdiskstorage_localdiskstorage_writemanifest",
+      "community": 3,
+      "norm_label": ".writemanifest()"
+    },
+    {
+      "label": ".assetPath()",
+      "file_type": "code",
+      "source_file": "services/asset-service/src/storage/LocalDiskStorage.ts",
+      "source_location": "L86",
+      "_origin": "ast",
+      "id": "services_asset_service_src_storage_localdiskstorage_localdiskstorage_assetpath",
+      "community": 3,
+      "norm_label": ".assetpath()"
+    },
+    {
+      "label": ".previewPath()",
+      "file_type": "code",
+      "source_file": "services/asset-service/src/storage/LocalDiskStorage.ts",
+      "source_location": "L90",
+      "_origin": "ast",
+      "id": "services_asset_service_src_storage_localdiskstorage_localdiskstorage_previewpath",
+      "community": 3,
+      "norm_label": ".previewpath()"
+    },
+    {
+      "label": ".manifestPath()",
+      "file_type": "code",
+      "source_file": "services/asset-service/src/storage/LocalDiskStorage.ts",
+      "source_location": "L94",
+      "_origin": "ast",
+      "id": "services_asset_service_src_storage_localdiskstorage_localdiskstorage_manifestpath",
+      "community": 3,
+      "norm_label": ".manifestpath()"
+    },
+    {
+      "label": ".fileExists()",
+      "file_type": "code",
+      "source_file": "services/asset-service/src/storage/LocalDiskStorage.ts",
+      "source_location": "L98",
+      "_origin": "ast",
+      "id": "services_asset_service_src_storage_localdiskstorage_localdiskstorage_fileexists",
+      "community": 3,
+      "norm_label": ".fileexists()"
+    },
+    {
+      "label": "types.ts",
+      "file_type": "code",
+      "source_file": "services/asset-service/src/storage/types.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "services_asset_service_src_storage_types",
+      "community": 3,
+      "norm_label": "types.ts"
+    },
+    {
+      "label": "AssetMetadata",
+      "file_type": "code",
+      "source_file": "services/asset-service/src/storage/types.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "services_asset_service_src_storage_types_assetmetadata",
+      "community": 3,
+      "norm_label": "assetmetadata"
+    },
+    {
+      "label": "AssetRecord",
+      "file_type": "code",
+      "source_file": "services/asset-service/src/storage/types.ts",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "services_asset_service_src_storage_types_assetrecord",
+      "community": 3,
+      "norm_label": "assetrecord"
+    },
+    {
+      "label": "SaveAssetInput",
+      "file_type": "code",
+      "source_file": "services/asset-service/src/storage/types.ts",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "services_asset_service_src_storage_types_saveassetinput",
+      "community": 3,
+      "norm_label": "saveassetinput"
+    },
+    {
+      "label": "validation.ts",
+      "file_type": "code",
+      "source_file": "services/asset-service/src/validation.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "services_asset_service_src_validation",
+      "community": 13,
+      "norm_label": "validation.ts"
+    },
+    {
+      "label": "isValidAssetId()",
+      "file_type": "code",
+      "source_file": "services/asset-service/src/validation.ts",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "services_asset_service_src_validation_isvalidassetid",
+      "community": 13,
+      "norm_label": "isvalidassetid()"
+    },
+    {
+      "label": "tsconfig.json",
+      "file_type": "code",
+      "source_file": "services/asset-service/tsconfig.json",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "services_asset_service_tsconfig",
+      "community": 16,
+      "norm_label": "tsconfig.json"
+    },
+    {
+      "label": "extends",
+      "file_type": "code",
+      "source_file": "services/asset-service/tsconfig.json",
+      "source_location": "L2",
+      "_origin": "ast",
+      "id": "services_asset_service_tsconfig_extends",
+      "community": 16,
+      "norm_label": "extends"
+    },
+    {
+      "label": "../../tsconfig.base.json",
+      "file_type": "concept",
+      "source_file": "services/asset-service/tsconfig.json",
+      "source_location": "L2",
+      "_origin": "ast",
+      "id": "services_asset_service_tsconfig_json_ref_tsconfig_base_json",
+      "community": 16,
+      "norm_label": "../../tsconfig.base.json"
+    },
+    {
+      "label": "compilerOptions",
+      "file_type": "code",
+      "source_file": "services/asset-service/tsconfig.json",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "services_asset_service_tsconfig_compileroptions",
+      "community": 16,
+      "norm_label": "compileroptions"
+    },
+    {
+      "label": "lib",
+      "file_type": "code",
+      "source_file": "services/asset-service/tsconfig.json",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "services_asset_service_tsconfig_compileroptions_lib",
+      "community": 16,
+      "norm_label": "lib"
+    },
+    {
+      "label": "ES2022",
+      "file_type": "concept",
+      "source_file": "services/asset-service/tsconfig.json",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "services_asset_service_tsconfig_json_ref_es2022",
+      "community": 16,
+      "norm_label": "es2022"
+    },
+    {
+      "label": "outDir",
+      "file_type": "code",
+      "source_file": "services/asset-service/tsconfig.json",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "services_asset_service_tsconfig_compileroptions_outdir",
+      "community": 16,
+      "norm_label": "outdir"
+    },
+    {
+      "label": "rootDir",
+      "file_type": "code",
+      "source_file": "services/asset-service/tsconfig.json",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "services_asset_service_tsconfig_compileroptions_rootdir",
+      "community": 16,
+      "norm_label": "rootdir"
+    },
+    {
+      "label": "composite",
+      "file_type": "code",
+      "source_file": "services/asset-service/tsconfig.json",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "services_asset_service_tsconfig_compileroptions_composite",
+      "community": 16,
+      "norm_label": "composite"
+    },
+    {
+      "label": "types",
+      "file_type": "code",
+      "source_file": "services/asset-service/tsconfig.json",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "services_asset_service_tsconfig_compileroptions_types",
+      "community": 16,
+      "norm_label": "types"
+    },
+    {
+      "label": "node",
+      "file_type": "concept",
+      "source_file": "services/asset-service/tsconfig.json",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "ref_node",
+      "community": 16,
+      "norm_label": "node"
+    },
+    {
+      "label": "include",
+      "file_type": "code",
+      "source_file": "services/asset-service/tsconfig.json",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "services_asset_service_tsconfig_include",
+      "community": 16,
+      "norm_label": "include"
+    },
+    {
+      "label": "src",
+      "file_type": "concept",
+      "source_file": "services/asset-service/tsconfig.json",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "services_asset_service_tsconfig_json_ref_src",
+      "community": 16,
+      "norm_label": "src"
+    },
+    {
+      "label": "exclude",
+      "file_type": "code",
+      "source_file": "services/asset-service/tsconfig.json",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "services_asset_service_tsconfig_exclude",
+      "community": 16,
+      "norm_label": "exclude"
+    },
+    {
+      "label": "src/**/*.test.ts",
+      "file_type": "concept",
+      "source_file": "services/asset-service/tsconfig.json",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "services_asset_service_tsconfig_json_ref_src_test_ts",
+      "community": 16,
+      "norm_label": "src/**/*.test.ts"
     },
     {
       "label": "tsconfig.base.json",
@@ -4319,6 +5419,2038 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/package.json",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "services_asset_service_package",
+      "target": "services_asset_service_package_dependencies",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/package.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "services_asset_service_package",
+      "target": "services_asset_service_package_description",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/package.json",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "services_asset_service_package",
+      "target": "services_asset_service_package_devdependencies",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/package.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "services_asset_service_package",
+      "target": "services_asset_service_package_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/package.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "services_asset_service_package",
+      "target": "services_asset_service_package_name",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/package.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "services_asset_service_package",
+      "target": "services_asset_service_package_private",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/package.json",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "services_asset_service_package",
+      "target": "services_asset_service_package_scripts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/package.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "services_asset_service_package",
+      "target": "services_asset_service_package_type",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/package.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "services_asset_service_package",
+      "target": "services_asset_service_package_types",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/package.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "services_asset_service_package",
+      "target": "services_asset_service_package_version",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/package.json",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "services_asset_service_package_scripts",
+      "target": "services_asset_service_package_scripts_build",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/package.json",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "services_asset_service_package_scripts",
+      "target": "services_asset_service_package_scripts_start",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/package.json",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "services_asset_service_package_scripts",
+      "target": "services_asset_service_package_scripts_test",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/package.json",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "services_asset_service_package_scripts",
+      "target": "services_asset_service_package_scripts_typecheck",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/package.json",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "services_asset_service_package_dependencies",
+      "target": "services_asset_service_package_dependencies_express",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/package.json",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "services_asset_service_package_dependencies",
+      "target": "services_asset_service_package_dependencies_multer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/package.json",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "services_asset_service_package_dependencies",
+      "target": "services_asset_service_package_dependencies_sharp",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/package.json",
+      "source_location": "L16",
+      "weight": 1.0,
+      "context": "import",
+      "source": "services_asset_service_package_dependencies_express",
+      "target": "express",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/package.json",
+      "source_location": "L17",
+      "weight": 1.0,
+      "context": "import",
+      "source": "services_asset_service_package_dependencies_multer",
+      "target": "multer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/package.json",
+      "source_location": "L18",
+      "weight": 1.0,
+      "context": "import",
+      "source": "services_asset_service_package_dependencies_sharp",
+      "target": "sharp",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/package.json",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "services_asset_service_package_devdependencies",
+      "target": "services_asset_service_package_devdependencies_supertest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/package.json",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "services_asset_service_package_devdependencies",
+      "target": "services_asset_service_package_devdependencies_types_express",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/package.json",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "services_asset_service_package_devdependencies",
+      "target": "services_asset_service_package_devdependencies_types_multer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/package.json",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "services_asset_service_package_devdependencies",
+      "target": "services_asset_service_package_devdependencies_types_node",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/package.json",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "services_asset_service_package_devdependencies",
+      "target": "services_asset_service_package_devdependencies_types_supertest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/package.json",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "services_asset_service_package_devdependencies",
+      "target": "services_asset_service_package_devdependencies_typescript",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/package.json",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "services_asset_service_package_devdependencies",
+      "target": "services_asset_service_package_devdependencies_vitest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/package.json",
+      "source_location": "L21",
+      "weight": 1.0,
+      "context": "import",
+      "source": "services_asset_service_package_devdependencies_types_express",
+      "target": "types_express",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/package.json",
+      "source_location": "L22",
+      "weight": 1.0,
+      "context": "import",
+      "source": "services_asset_service_package_devdependencies_types_multer",
+      "target": "types_multer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/package.json",
+      "source_location": "L23",
+      "weight": 1.0,
+      "context": "import",
+      "source": "services_asset_service_package_devdependencies_types_node",
+      "target": "types_node",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/package.json",
+      "source_location": "L24",
+      "weight": 1.0,
+      "context": "import",
+      "source": "services_asset_service_package_devdependencies_types_supertest",
+      "target": "types_supertest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/package.json",
+      "source_location": "L25",
+      "weight": 1.0,
+      "context": "import",
+      "source": "services_asset_service_package_devdependencies_supertest",
+      "target": "supertest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/package.json",
+      "source_location": "L26",
+      "weight": 1.0,
+      "context": "import",
+      "source": "services_asset_service_package_devdependencies_typescript",
+      "target": "services_asset_service_package_json_typescript",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/package.json",
+      "source_location": "L27",
+      "weight": 1.0,
+      "context": "import",
+      "source": "services_asset_service_package_devdependencies_vitest",
+      "target": "services_asset_service_package_json_vitest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/adminAuth.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "services_asset_service_src_adminauth",
+      "target": "services_asset_service_src_adminauth_createadminauthmiddleware",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/app.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "services_asset_service_src_app",
+      "target": "services_asset_service_src_adminauth",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/app.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "services_asset_service_src_app",
+      "target": "services_asset_service_src_adminauth_createadminauthmiddleware",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "services/asset-service/src/app.ts",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "services_asset_service_src_app_createapp",
+      "target": "services_asset_service_src_adminauth_createadminauthmiddleware"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/app.test.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "services_asset_service_src_app_test",
+      "target": "services_asset_service_src_app",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/app.test.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "services_asset_service_src_app_test",
+      "target": "services_asset_service_src_app_createapp",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/app.test.ts",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "services_asset_service_src_app_test",
+      "target": "services_asset_service_src_app_test_fakeassetstorage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/app.test.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "services_asset_service_src_app_test",
+      "target": "services_asset_service_src_storage_assetstorage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/app.test.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "services_asset_service_src_app_test",
+      "target": "services_asset_service_src_storage_assetstorage_assetstorage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/app.test.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "services_asset_service_src_app_test",
+      "target": "services_asset_service_src_storage_types",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/app.test.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "services_asset_service_src_app_test",
+      "target": "services_asset_service_src_storage_types_assetmetadata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/app.test.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "services_asset_service_src_app_test",
+      "target": "services_asset_service_src_storage_types_assetrecord",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/app.test.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "services_asset_service_src_app_test",
+      "target": "services_asset_service_src_storage_types_saveassetinput",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/app.test.ts",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "services_asset_service_src_app_test_fakeassetstorage",
+      "target": "services_asset_service_src_app_test_fakeassetstorage_get",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/app.test.ts",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "services_asset_service_src_app_test_fakeassetstorage",
+      "target": "services_asset_service_src_app_test_fakeassetstorage_getpreview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/app.test.ts",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "services_asset_service_src_app_test_fakeassetstorage",
+      "target": "services_asset_service_src_app_test_fakeassetstorage_list",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/app.test.ts",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "services_asset_service_src_app_test_fakeassetstorage",
+      "target": "services_asset_service_src_app_test_fakeassetstorage_save",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/app.test.ts",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "services_asset_service_src_app_test_fakeassetstorage",
+      "target": "services_asset_service_src_app_test_fakeassetstorage_seed",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "implements",
+      "context": "type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/app.test.ts",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "services_asset_service_src_app_test_fakeassetstorage",
+      "target": "services_asset_service_src_storage_assetstorage_assetstorage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/app.test.ts",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "services_asset_service_src_app_test_fakeassetstorage_seed",
+      "target": "services_asset_service_src_storage_types_assetrecord",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/app.test.ts",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "services_asset_service_src_app_test_fakeassetstorage_save",
+      "target": "services_asset_service_src_storage_types_assetmetadata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/app.test.ts",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "services_asset_service_src_app_test_fakeassetstorage_save",
+      "target": "services_asset_service_src_storage_types_saveassetinput",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/app.test.ts",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "services_asset_service_src_app_test_fakeassetstorage_get",
+      "target": "services_asset_service_src_storage_types_assetrecord",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/app.test.ts",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "services_asset_service_src_app_test_fakeassetstorage_list",
+      "target": "services_asset_service_src_storage_types_assetmetadata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/app.ts",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "services_asset_service_src_app",
+      "target": "services_asset_service_src_app_createapp",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/app.ts",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "services_asset_service_src_app",
+      "target": "services_asset_service_src_app_createappoptions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/app.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "services_asset_service_src_app",
+      "target": "services_asset_service_src_errors",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/app.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "services_asset_service_src_app",
+      "target": "services_asset_service_src_errors_assetnotfounderror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/app.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "services_asset_service_src_app",
+      "target": "services_asset_service_src_errors_invalidassetiderror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/app.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "services_asset_service_src_app",
+      "target": "services_asset_service_src_routes_assets",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/app.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "services_asset_service_src_app",
+      "target": "services_asset_service_src_routes_assets_createassetsrouter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/app.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "services_asset_service_src_app",
+      "target": "services_asset_service_src_routes_upload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/app.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "services_asset_service_src_app",
+      "target": "services_asset_service_src_routes_upload_createuploadrouter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/app.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "services_asset_service_src_app",
+      "target": "services_asset_service_src_storage_assetstorage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/app.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "services_asset_service_src_app",
+      "target": "services_asset_service_src_storage_assetstorage_assetstorage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "services_asset_service_src_index",
+      "target": "services_asset_service_src_app",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "field",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/app.ts",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "services_asset_service_src_app_createappoptions",
+      "target": "services_asset_service_src_storage_assetstorage_assetstorage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "services/asset-service/src/app.ts",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "services_asset_service_src_app_createapp",
+      "target": "services_asset_service_src_routes_assets_createassetsrouter"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "services/asset-service/src/app.ts",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "services_asset_service_src_app_createapp",
+      "target": "services_asset_service_src_routes_upload_createuploadrouter"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "services_asset_service_src_index",
+      "target": "services_asset_service_src_app_createapp",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/asyncHandler.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "services_asset_service_src_asynchandler",
+      "target": "services_asset_service_src_asynchandler_asynchandler",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/asyncHandler.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "services_asset_service_src_asynchandler",
+      "target": "services_asset_service_src_asynchandler_asyncroutehandler",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/routes/assets.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "services_asset_service_src_routes_assets",
+      "target": "services_asset_service_src_asynchandler",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/routes/upload.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "services_asset_service_src_routes_upload",
+      "target": "services_asset_service_src_asynchandler",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/routes/assets.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "services_asset_service_src_routes_assets",
+      "target": "services_asset_service_src_asynchandler_asynchandler",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "services/asset-service/src/routes/assets.ts",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "services_asset_service_src_routes_assets_createassetsrouter",
+      "target": "services_asset_service_src_asynchandler_asynchandler"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/routes/upload.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "services_asset_service_src_routes_upload",
+      "target": "services_asset_service_src_asynchandler_asynchandler",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "services/asset-service/src/routes/upload.ts",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "services_asset_service_src_routes_upload_createuploadrouter",
+      "target": "services_asset_service_src_asynchandler_asynchandler"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/errors.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "services_asset_service_src_errors",
+      "target": "services_asset_service_src_errors_assetnotfounderror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/errors.ts",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "services_asset_service_src_errors",
+      "target": "services_asset_service_src_errors_invalidassetiderror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/errors.ts",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "services_asset_service_src_errors",
+      "target": "services_asset_service_src_errors_missingadminapikeyerror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/index.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "services_asset_service_src_index",
+      "target": "services_asset_service_src_errors",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/routes/assets.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "services_asset_service_src_routes_assets",
+      "target": "services_asset_service_src_errors",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/routes/upload.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "services_asset_service_src_routes_upload",
+      "target": "services_asset_service_src_errors",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/errors.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "services_asset_service_src_errors_assetnotfounderror",
+      "target": "services_asset_service_src_errors_assetnotfounderror_constructor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/routes/assets.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "services_asset_service_src_routes_assets",
+      "target": "services_asset_service_src_errors_assetnotfounderror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/errors.ts",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "services_asset_service_src_errors_invalidassetiderror",
+      "target": "services_asset_service_src_errors_invalidassetiderror_constructor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/routes/assets.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "services_asset_service_src_routes_assets",
+      "target": "services_asset_service_src_errors_invalidassetiderror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/routes/upload.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "services_asset_service_src_routes_upload",
+      "target": "services_asset_service_src_errors_invalidassetiderror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/errors.ts",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "services_asset_service_src_errors_missingadminapikeyerror",
+      "target": "services_asset_service_src_errors_missingadminapikeyerror_constructor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/index.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "services_asset_service_src_index",
+      "target": "services_asset_service_src_errors_missingadminapikeyerror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/index.ts",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "services_asset_service_src_index",
+      "target": "services_asset_service_src_index_app",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/index.ts",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "services_asset_service_src_index",
+      "target": "services_asset_service_src_index_port",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/index.ts",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "services_asset_service_src_index",
+      "target": "services_asset_service_src_index_storage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/index.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "services_asset_service_src_index",
+      "target": "services_asset_service_src_storage_localdiskstorage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/index.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "services_asset_service_src_index",
+      "target": "services_asset_service_src_storage_localdiskstorage_localdiskstorage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/routes/assets.ts",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "services_asset_service_src_routes_assets",
+      "target": "services_asset_service_src_routes_assets_createassetsrouter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/routes/assets.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "services_asset_service_src_routes_assets",
+      "target": "services_asset_service_src_storage_assetstorage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/routes/assets.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "services_asset_service_src_routes_assets",
+      "target": "services_asset_service_src_storage_assetstorage_assetstorage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/routes/assets.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "services_asset_service_src_routes_assets",
+      "target": "services_asset_service_src_validation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/routes/assets.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "services_asset_service_src_routes_assets",
+      "target": "services_asset_service_src_validation_isvalidassetid",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "services/asset-service/src/routes/assets.ts",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "services_asset_service_src_routes_assets_createassetsrouter",
+      "target": "services_asset_service_src_storage_assetstorage_assetstorage_get"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "services/asset-service/src/routes/assets.ts",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "services_asset_service_src_routes_assets_createassetsrouter",
+      "target": "services_asset_service_src_storage_assetstorage_assetstorage_getpreview"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "services/asset-service/src/routes/assets.ts",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "services_asset_service_src_routes_assets_createassetsrouter",
+      "target": "services_asset_service_src_validation_isvalidassetid"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/routes/upload.ts",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "services_asset_service_src_routes_upload",
+      "target": "services_asset_service_src_routes_upload_createuploadrouter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/routes/upload.ts",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "services_asset_service_src_routes_upload",
+      "target": "services_asset_service_src_routes_upload_upload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/routes/upload.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "services_asset_service_src_routes_upload",
+      "target": "services_asset_service_src_storage_assetstorage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/routes/upload.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "services_asset_service_src_routes_upload",
+      "target": "services_asset_service_src_storage_assetstorage_assetstorage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/routes/upload.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "services_asset_service_src_routes_upload",
+      "target": "services_asset_service_src_validation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/routes/upload.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "services_asset_service_src_routes_upload",
+      "target": "services_asset_service_src_validation_isvalidassetid",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "services/asset-service/src/routes/upload.ts",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "services_asset_service_src_routes_upload_createuploadrouter",
+      "target": "services_asset_service_src_storage_assetstorage_assetstorage_save"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "services/asset-service/src/routes/upload.ts",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "services_asset_service_src_routes_upload_createuploadrouter",
+      "target": "services_asset_service_src_validation_isvalidassetid"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/storage/AssetStorage.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "services_asset_service_src_storage_assetstorage",
+      "target": "services_asset_service_src_storage_assetstorage_assetstorage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/storage/AssetStorage.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "services_asset_service_src_storage_assetstorage",
+      "target": "services_asset_service_src_storage_types",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/storage/AssetStorage.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "services_asset_service_src_storage_assetstorage",
+      "target": "services_asset_service_src_storage_types_assetmetadata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/storage/AssetStorage.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "services_asset_service_src_storage_assetstorage",
+      "target": "services_asset_service_src_storage_types_assetrecord",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/storage/AssetStorage.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "services_asset_service_src_storage_assetstorage",
+      "target": "services_asset_service_src_storage_types_saveassetinput",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/storage/LocalDiskStorage.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "services_asset_service_src_storage_localdiskstorage",
+      "target": "services_asset_service_src_storage_assetstorage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/storage/AssetStorage.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "services_asset_service_src_storage_assetstorage_assetstorage",
+      "target": "services_asset_service_src_storage_assetstorage_assetstorage_get",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/storage/AssetStorage.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "services_asset_service_src_storage_assetstorage_assetstorage",
+      "target": "services_asset_service_src_storage_assetstorage_assetstorage_getpreview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/storage/AssetStorage.ts",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "services_asset_service_src_storage_assetstorage_assetstorage",
+      "target": "services_asset_service_src_storage_assetstorage_assetstorage_list",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/storage/AssetStorage.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "services_asset_service_src_storage_assetstorage_assetstorage",
+      "target": "services_asset_service_src_storage_assetstorage_assetstorage_save",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/storage/LocalDiskStorage.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "services_asset_service_src_storage_localdiskstorage",
+      "target": "services_asset_service_src_storage_assetstorage_assetstorage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "implements",
+      "context": "type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/storage/LocalDiskStorage.ts",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "services_asset_service_src_storage_localdiskstorage_localdiskstorage",
+      "target": "services_asset_service_src_storage_assetstorage_assetstorage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/storage/AssetStorage.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "services_asset_service_src_storage_assetstorage_assetstorage_save",
+      "target": "services_asset_service_src_storage_types_assetmetadata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/storage/AssetStorage.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "services_asset_service_src_storage_assetstorage_assetstorage_save",
+      "target": "services_asset_service_src_storage_types_saveassetinput",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/storage/AssetStorage.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "services_asset_service_src_storage_assetstorage_assetstorage_get",
+      "target": "services_asset_service_src_storage_types_assetrecord",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/storage/AssetStorage.ts",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "services_asset_service_src_storage_assetstorage_assetstorage_list",
+      "target": "services_asset_service_src_storage_types_assetmetadata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/storage/LocalDiskStorage.test.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "services_asset_service_src_storage_localdiskstorage_test",
+      "target": "services_asset_service_src_storage_localdiskstorage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/storage/LocalDiskStorage.test.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "services_asset_service_src_storage_localdiskstorage_test",
+      "target": "services_asset_service_src_storage_localdiskstorage_localdiskstorage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/storage/LocalDiskStorage.test.ts",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "services_asset_service_src_storage_localdiskstorage_test",
+      "target": "services_asset_service_src_storage_localdiskstorage_test_createpngbuffer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/storage/LocalDiskStorage.ts",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "services_asset_service_src_storage_localdiskstorage",
+      "target": "services_asset_service_src_storage_localdiskstorage_localdiskstorage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/storage/LocalDiskStorage.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "services_asset_service_src_storage_localdiskstorage",
+      "target": "services_asset_service_src_storage_types",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/storage/LocalDiskStorage.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "services_asset_service_src_storage_localdiskstorage",
+      "target": "services_asset_service_src_storage_types_assetmetadata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/storage/LocalDiskStorage.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "services_asset_service_src_storage_localdiskstorage",
+      "target": "services_asset_service_src_storage_types_assetrecord",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/storage/LocalDiskStorage.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "services_asset_service_src_storage_localdiskstorage",
+      "target": "services_asset_service_src_storage_types_saveassetinput",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/storage/LocalDiskStorage.ts",
+      "source_location": "L86",
+      "weight": 1.0,
+      "source": "services_asset_service_src_storage_localdiskstorage_localdiskstorage",
+      "target": "services_asset_service_src_storage_localdiskstorage_localdiskstorage_assetpath",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/storage/LocalDiskStorage.ts",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "services_asset_service_src_storage_localdiskstorage_localdiskstorage",
+      "target": "services_asset_service_src_storage_localdiskstorage_localdiskstorage_constructor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/storage/LocalDiskStorage.ts",
+      "source_location": "L66",
+      "weight": 1.0,
+      "source": "services_asset_service_src_storage_localdiskstorage_localdiskstorage",
+      "target": "services_asset_service_src_storage_localdiskstorage_localdiskstorage_extractimagedimensions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/storage/LocalDiskStorage.ts",
+      "source_location": "L98",
+      "weight": 1.0,
+      "source": "services_asset_service_src_storage_localdiskstorage_localdiskstorage",
+      "target": "services_asset_service_src_storage_localdiskstorage_localdiskstorage_fileexists",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/storage/LocalDiskStorage.ts",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "services_asset_service_src_storage_localdiskstorage_localdiskstorage",
+      "target": "services_asset_service_src_storage_localdiskstorage_localdiskstorage_get",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/storage/LocalDiskStorage.ts",
+      "source_location": "L46",
+      "weight": 1.0,
+      "source": "services_asset_service_src_storage_localdiskstorage_localdiskstorage",
+      "target": "services_asset_service_src_storage_localdiskstorage_localdiskstorage_getpreview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/storage/LocalDiskStorage.ts",
+      "source_location": "L52",
+      "weight": 1.0,
+      "source": "services_asset_service_src_storage_localdiskstorage_localdiskstorage",
+      "target": "services_asset_service_src_storage_localdiskstorage_localdiskstorage_list",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/storage/LocalDiskStorage.ts",
+      "source_location": "L94",
+      "weight": 1.0,
+      "source": "services_asset_service_src_storage_localdiskstorage_localdiskstorage",
+      "target": "services_asset_service_src_storage_localdiskstorage_localdiskstorage_manifestpath",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/storage/LocalDiskStorage.ts",
+      "source_location": "L90",
+      "weight": 1.0,
+      "source": "services_asset_service_src_storage_localdiskstorage_localdiskstorage",
+      "target": "services_asset_service_src_storage_localdiskstorage_localdiskstorage_previewpath",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/storage/LocalDiskStorage.ts",
+      "source_location": "L75",
+      "weight": 1.0,
+      "source": "services_asset_service_src_storage_localdiskstorage_localdiskstorage",
+      "target": "services_asset_service_src_storage_localdiskstorage_localdiskstorage_readmanifest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/storage/LocalDiskStorage.ts",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "services_asset_service_src_storage_localdiskstorage_localdiskstorage",
+      "target": "services_asset_service_src_storage_localdiskstorage_localdiskstorage_save",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/storage/LocalDiskStorage.ts",
+      "source_location": "L82",
+      "weight": 1.0,
+      "source": "services_asset_service_src_storage_localdiskstorage_localdiskstorage",
+      "target": "services_asset_service_src_storage_localdiskstorage_localdiskstorage_writemanifest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/storage/LocalDiskStorage.ts",
+      "source_location": "L58",
+      "weight": 1.0,
+      "source": "services_asset_service_src_storage_localdiskstorage_localdiskstorage",
+      "target": "services_asset_service_src_storage_localdiskstorage_localdiskstorage_writepreview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/storage/LocalDiskStorage.ts",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "services_asset_service_src_storage_localdiskstorage_localdiskstorage_save",
+      "target": "services_asset_service_src_storage_localdiskstorage_localdiskstorage_assetpath",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/storage/LocalDiskStorage.ts",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "services_asset_service_src_storage_localdiskstorage_localdiskstorage_save",
+      "target": "services_asset_service_src_storage_localdiskstorage_localdiskstorage_extractimagedimensions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/storage/LocalDiskStorage.ts",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "services_asset_service_src_storage_localdiskstorage_localdiskstorage_save",
+      "target": "services_asset_service_src_storage_localdiskstorage_localdiskstorage_readmanifest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/storage/LocalDiskStorage.ts",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "services_asset_service_src_storage_localdiskstorage_localdiskstorage_save",
+      "target": "services_asset_service_src_storage_localdiskstorage_localdiskstorage_writemanifest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/storage/LocalDiskStorage.ts",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "services_asset_service_src_storage_localdiskstorage_localdiskstorage_save",
+      "target": "services_asset_service_src_storage_localdiskstorage_localdiskstorage_writepreview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/storage/LocalDiskStorage.ts",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "services_asset_service_src_storage_localdiskstorage_localdiskstorage_save",
+      "target": "services_asset_service_src_storage_types_assetmetadata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/storage/LocalDiskStorage.ts",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "services_asset_service_src_storage_localdiskstorage_localdiskstorage_save",
+      "target": "services_asset_service_src_storage_types_saveassetinput",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/storage/LocalDiskStorage.ts",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "services_asset_service_src_storage_localdiskstorage_localdiskstorage_get",
+      "target": "services_asset_service_src_storage_localdiskstorage_localdiskstorage_assetpath",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/storage/LocalDiskStorage.ts",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "services_asset_service_src_storage_localdiskstorage_localdiskstorage_get",
+      "target": "services_asset_service_src_storage_localdiskstorage_localdiskstorage_readmanifest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/storage/LocalDiskStorage.ts",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "services_asset_service_src_storage_localdiskstorage_localdiskstorage_get",
+      "target": "services_asset_service_src_storage_types_assetrecord",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/storage/LocalDiskStorage.ts",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "services_asset_service_src_storage_localdiskstorage_localdiskstorage_getpreview",
+      "target": "services_asset_service_src_storage_localdiskstorage_localdiskstorage_fileexists",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/storage/LocalDiskStorage.ts",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "services_asset_service_src_storage_localdiskstorage_localdiskstorage_getpreview",
+      "target": "services_asset_service_src_storage_localdiskstorage_localdiskstorage_previewpath",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/storage/LocalDiskStorage.ts",
+      "source_location": "L53",
+      "weight": 1.0,
+      "source": "services_asset_service_src_storage_localdiskstorage_localdiskstorage_list",
+      "target": "services_asset_service_src_storage_localdiskstorage_localdiskstorage_readmanifest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/storage/LocalDiskStorage.ts",
+      "source_location": "L52",
+      "weight": 1.0,
+      "source": "services_asset_service_src_storage_localdiskstorage_localdiskstorage_list",
+      "target": "services_asset_service_src_storage_types_assetmetadata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/storage/LocalDiskStorage.ts",
+      "source_location": "L63",
+      "weight": 1.0,
+      "source": "services_asset_service_src_storage_localdiskstorage_localdiskstorage_writepreview",
+      "target": "services_asset_service_src_storage_localdiskstorage_localdiskstorage_previewpath",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/storage/LocalDiskStorage.ts",
+      "source_location": "L76",
+      "weight": 1.0,
+      "source": "services_asset_service_src_storage_localdiskstorage_localdiskstorage_readmanifest",
+      "target": "services_asset_service_src_storage_localdiskstorage_localdiskstorage_fileexists",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/storage/LocalDiskStorage.ts",
+      "source_location": "L76",
+      "weight": 1.0,
+      "source": "services_asset_service_src_storage_localdiskstorage_localdiskstorage_readmanifest",
+      "target": "services_asset_service_src_storage_localdiskstorage_localdiskstorage_manifestpath",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/storage/LocalDiskStorage.ts",
+      "source_location": "L75",
+      "weight": 1.0,
+      "source": "services_asset_service_src_storage_localdiskstorage_localdiskstorage_readmanifest",
+      "target": "services_asset_service_src_storage_types_assetmetadata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/storage/LocalDiskStorage.ts",
+      "source_location": "L83",
+      "weight": 1.0,
+      "source": "services_asset_service_src_storage_localdiskstorage_localdiskstorage_writemanifest",
+      "target": "services_asset_service_src_storage_localdiskstorage_localdiskstorage_manifestpath",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/storage/LocalDiskStorage.ts",
+      "source_location": "L82",
+      "weight": 1.0,
+      "source": "services_asset_service_src_storage_localdiskstorage_localdiskstorage_writemanifest",
+      "target": "services_asset_service_src_storage_types_assetmetadata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/storage/types.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "services_asset_service_src_storage_types",
+      "target": "services_asset_service_src_storage_types_assetmetadata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/storage/types.ts",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "services_asset_service_src_storage_types",
+      "target": "services_asset_service_src_storage_types_assetrecord",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/storage/types.ts",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "services_asset_service_src_storage_types",
+      "target": "services_asset_service_src_storage_types_saveassetinput",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "context": "type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/storage/types.ts",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "services_asset_service_src_storage_types_assetrecord",
+      "target": "services_asset_service_src_storage_types_assetmetadata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/src/validation.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "services_asset_service_src_validation",
+      "target": "services_asset_service_src_validation_isvalidassetid",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/tsconfig.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "services_asset_service_tsconfig",
+      "target": "services_asset_service_tsconfig_compileroptions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/tsconfig.json",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "services_asset_service_tsconfig",
+      "target": "services_asset_service_tsconfig_exclude",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/tsconfig.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "services_asset_service_tsconfig",
+      "target": "services_asset_service_tsconfig_extends",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/tsconfig.json",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "services_asset_service_tsconfig",
+      "target": "services_asset_service_tsconfig_include",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/tsconfig.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "context": "import",
+      "source": "services_asset_service_tsconfig",
+      "target": "services_asset_service_tsconfig_json_ref_tsconfig_base_json",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/tsconfig.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "services_asset_service_tsconfig_compileroptions",
+      "target": "services_asset_service_tsconfig_compileroptions_composite",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/tsconfig.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "services_asset_service_tsconfig_compileroptions",
+      "target": "services_asset_service_tsconfig_compileroptions_lib",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/tsconfig.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "services_asset_service_tsconfig_compileroptions",
+      "target": "services_asset_service_tsconfig_compileroptions_outdir",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/tsconfig.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "services_asset_service_tsconfig_compileroptions",
+      "target": "services_asset_service_tsconfig_compileroptions_rootdir",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/tsconfig.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "services_asset_service_tsconfig_compileroptions",
+      "target": "services_asset_service_tsconfig_compileroptions_types",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/tsconfig.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "context": "import",
+      "source": "services_asset_service_tsconfig_compileroptions_lib",
+      "target": "services_asset_service_tsconfig_json_ref_es2022",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/tsconfig.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "context": "import",
+      "source": "services_asset_service_tsconfig_compileroptions_types",
+      "target": "ref_node",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/tsconfig.json",
+      "source_location": "L10",
+      "weight": 1.0,
+      "context": "import",
+      "source": "services_asset_service_tsconfig_include",
+      "target": "services_asset_service_tsconfig_json_ref_src",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "services/asset-service/tsconfig.json",
+      "source_location": "L11",
+      "weight": 1.0,
+      "context": "import",
+      "source": "services_asset_service_tsconfig_exclude",
+      "target": "services_asset_service_tsconfig_json_ref_src_test_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "tsconfig.base.json",
       "source_location": "L2",
       "weight": 1.0,
@@ -4469,5 +7601,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "9ec95aa0b3f4a7d96ec22f5286b01d0827ff3f6b"
+  "built_at_commit": "ee3183ad902a094a1522670ee81a97bf78dec324"
 }

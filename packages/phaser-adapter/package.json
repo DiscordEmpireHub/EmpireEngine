@@ -1,0 +1,26 @@
+{
+  "name": "@empire/engine-phaser-adapter",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Implementacao de GameEngine sobre Phaser 3 (PhaserGameEngine). Unico pacote do EmpireEngine que conhece Phaser.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -b",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@empire/engine-core": "workspace:*",
+    "@empire/engine-types": "workspace:*"
+  },
+  "peerDependencies": {
+    "phaser": "^3.90.0"
+  },
+  "devDependencies": {
+    "phaser": "^3.90.0",
+    "typescript": "^7.0.2",
+    "vitest": "^4.1.10"
+  }
+}

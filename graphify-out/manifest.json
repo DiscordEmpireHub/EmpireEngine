@@ -1,0 +1,122 @@
+{
+  "package.json": {
+    "mtime": 1784558045.6204457,
+    "ast_hash": "9ca7368b6c3d41bf570b5177f4ad574f",
+    "semantic_hash": ""
+  },
+  "packages/core/package.json": {
+    "mtime": 1784557336.3449817,
+    "ast_hash": "83e546f2b1db0a1aaaa347f5d45fa7c4",
+    "semantic_hash": ""
+  },
+  "packages/core/src/EventBus.test.ts": {
+    "mtime": 1784557409.0773413,
+    "ast_hash": "56df9ecf09894f0da57dea3055cafbf2",
+    "semantic_hash": ""
+  },
+  "packages/core/src/EventBus.ts": {
+    "mtime": 1784557357.997089,
+    "ast_hash": "d94fdd914ee5c8b5d171f72480e82415",
+    "semantic_hash": ""
+  },
+  "packages/core/src/GameEngine.ts": {
+    "mtime": 1784557384.3572192,
+    "ast_hash": "79b160be4b26fea23cc07380d877a812",
+    "semantic_hash": ""
+  },
+  "packages/core/src/SceneManager.test.ts": {
+    "mtime": 1784557478.0656812,
+    "ast_hash": "14d045337185d666c67d4af0ac104467",
+    "semantic_hash": ""
+  },
+  "packages/core/src/SceneManager.ts": {
+    "mtime": 1784557374.001168,
+    "ast_hash": "7337dc59bf5ee472fee64d92e6b9890d",
+    "semantic_hash": ""
+  },
+  "packages/core/src/index.ts": {
+    "mtime": 1784557393.449264,
+    "ast_hash": "9033344b8d9c242b6f98d8fd612a671c",
+    "semantic_hash": ""
+  },
+  "packages/core/tsconfig.json": {
+    "mtime": 1784558077.5766003,
+    "ast_hash": "b96d6bbaec41717c8a92d700497f8551",
+    "semantic_hash": ""
+  },
+  "packages/phaser-adapter/package.json": {
+    "mtime": 1784557698.4867604,
+    "ast_hash": "a32cb4f595b8895532a3c4f11ada091a",
+    "semantic_hash": ""
+  },
+  "packages/phaser-adapter/src/EngineScene.ts": {
+    "mtime": 1784557729.3429108,
+    "ast_hash": "e5533f83628ca089e06685eb59438210",
+    "semantic_hash": ""
+  },
+  "packages/phaser-adapter/src/PhaserGameEngine.test.ts": {
+    "mtime": 1784557999.3802218,
+    "ast_hash": "80b7aa098397baaba767224fa24525ff",
+    "semantic_hash": ""
+  },
+  "packages/phaser-adapter/src/PhaserGameEngine.ts": {
+    "mtime": 1784557758.9630551,
+    "ast_hash": "e09203e3243a52211fb0fd173eb2ec24",
+    "semantic_hash": ""
+  },
+  "packages/phaser-adapter/src/errors.ts": {
+    "mtime": 1784557719.718864,
+    "ast_hash": "13e6655ad9032784330856460c553f18",
+    "semantic_hash": ""
+  },
+  "packages/phaser-adapter/src/index.ts": {
+    "mtime": 1784557770.659112,
+    "ast_hash": "bbce5518cf6e24b06239cdc61455b318",
+    "semantic_hash": ""
+  },
+  "packages/phaser-adapter/tsconfig.json": {
+    "mtime": 1784558086.828645,
+    "ast_hash": "ff10a171e98968c0e8e0aa5027c73bfe",
+    "semantic_hash": ""
+  },
+  "packages/types/package.json": {
+    "mtime": 1784557258.0205925,
+    "ast_hash": "7dca5531dfc6adbc8f0d3f445ddfe0e3",
+    "semantic_hash": ""
+  },
+  "packages/types/src/asset.ts": {
+    "mtime": 1784557299.8328004,
+    "ast_hash": "a2e199261c052a4bae9adb5b6d7bee9a",
+    "semantic_hash": ""
+  },
+  "packages/types/src/index.ts": {
+    "mtime": 1784557322.3769124,
+    "ast_hash": "79ca27c26a4947107a3300795f1d455f",
+    "semantic_hash": ""
+  },
+  "packages/types/src/render-commands.ts": {
+    "mtime": 1784557314.3128724,
+    "ast_hash": "a3a0dcf9c60496e8f44c861615cf45d1",
+    "semantic_hash": ""
+  },
+  "packages/types/tsconfig.json": {
+    "mtime": 1784557271.6526604,
+    "ast_hash": "4253e23f7ee06339be130438e9cd469d",
+    "semantic_hash": ""
+  },
+  "tsconfig.base.json": {
+    "mtime": 1784556753.706014,
+    "ast_hash": "8c05a50dce1650b67539a44bbf36d5a5",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1783912758.7703948,
+    "ast_hash": "f503090206c54d1a22670a439c0aaa5a",
+    "semantic_hash": ""
+  },
+  "pnpm-workspace.yaml": {
+    "mtime": 1784556752.2660062,
+    "ast_hash": "ce28fb9b7374adca8ed3dd4fa7f0fa56",
+    "semantic_hash": ""
+  }
+}

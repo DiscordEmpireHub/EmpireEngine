@@ -4,9 +4,9 @@
   "private": true,
   "description": "Motor visual + repositório de assets do ecossistema Empire, sobre Phaser 3. Não depende do EmpireCore nem de nenhum EmpireGame.",
   "scripts": {
-    "build": "pnpm -r --filter \"./packages/*\" run build",
-    "typecheck": "pnpm -r --filter \"./packages/*\" run typecheck",
-    "test": "pnpm -r --filter \"./packages/*\" --if-present run test"
+    "build": "pnpm -r run build",
+    "typecheck": "pnpm -r run typecheck",
+    "test": "pnpm -r --if-present run test"
   },
   "devEngines": {
     "packageManager": {

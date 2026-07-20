@@ -1,7 +1,7 @@
 {
   "package.json": {
-    "mtime": 1784561836.7914574,
-    "ast_hash": "2f8b69b0d73c41baef84a7afd052b850",
+    "mtime": 1784558045.6204457,
+    "ast_hash": "9ca7368b6c3d41bf570b5177f4ad574f",
     "semantic_hash": ""
   },
   "packages/core/package.json": {
@@ -115,83 +115,8 @@
     "semantic_hash": ""
   },
   "pnpm-workspace.yaml": {
-    "mtime": 1784561727.3108604,
-    "ast_hash": "c4330866c98d2bad37f05f43fd43b958",
-    "semantic_hash": ""
-  },
-  "services/asset-service/package.json": {
-    "mtime": 1784561403.7530217,
-    "ast_hash": "90bed530d4d30c22db256d3e08f23851",
-    "semantic_hash": ""
-  },
-  "services/asset-service/src/adminAuth.ts": {
-    "mtime": 1784561558.7819192,
-    "ast_hash": "0266d432ae703351102832ec3f70c409",
-    "semantic_hash": ""
-  },
-  "services/asset-service/src/app.test.ts": {
-    "mtime": 1784561813.5113313,
-    "ast_hash": "389d60eab8435e2a361f2f7cd7933692",
-    "semantic_hash": ""
-  },
-  "services/asset-service/src/app.ts": {
-    "mtime": 1784561615.1862376,
-    "ast_hash": "4333bf57e0f56c93d048c346f07e7359",
-    "semantic_hash": ""
-  },
-  "services/asset-service/src/asyncHandler.ts": {
-    "mtime": 1784561545.221842,
-    "ast_hash": "50842e632a5afa20372ec234cfb7e99a",
-    "semantic_hash": ""
-  },
-  "services/asset-service/src/errors.ts": {
-    "mtime": 1784561487.1055086,
-    "ast_hash": "4368488fefa4a03313b400e09da66af4",
-    "semantic_hash": ""
-  },
-  "services/asset-service/src/index.ts": {
-    "mtime": 1784561627.7143078,
-    "ast_hash": "f7149cf8874002a44be2d57682c9e317",
-    "semantic_hash": ""
-  },
-  "services/asset-service/src/routes/assets.ts": {
-    "mtime": 1784561575.2900128,
-    "ast_hash": "98b02a39d91b475c188c6d744061b7b6",
-    "semantic_hash": ""
-  },
-  "services/asset-service/src/routes/upload.ts": {
-    "mtime": 1784561591.646105,
-    "ast_hash": "e191950a395d4e327899dd3977127755",
-    "semantic_hash": ""
-  },
-  "services/asset-service/src/storage/AssetStorage.ts": {
-    "mtime": 1784561465.0693808,
-    "ast_hash": "c6375568a11b546903cf7454bfae091d",
-    "semantic_hash": ""
-  },
-  "services/asset-service/src/storage/LocalDiskStorage.test.ts": {
-    "mtime": 1784561777.8551373,
-    "ast_hash": "313270d178513cc774e0be40c55ab6a2",
-    "semantic_hash": ""
-  },
-  "services/asset-service/src/storage/LocalDiskStorage.ts": {
-    "mtime": 1784561521.6617074,
-    "ast_hash": "7bf99b658b144e3b23b6eac6e435828a",
-    "semantic_hash": ""
-  },
-  "services/asset-service/src/storage/types.ts": {
-    "mtime": 1784561452.3413067,
-    "ast_hash": "1ce7d7addf43d376b0aeea12685d968e",
-    "semantic_hash": ""
-  },
-  "services/asset-service/src/validation.ts": {
-    "mtime": 1784561474.909438,
-    "ast_hash": "92baab795cba4417b6651da44365beab",
-    "semantic_hash": ""
-  },
-  "services/asset-service/tsconfig.json": {
-    "mtime": 1784561396.9809816,
-    "ast_hash": "045071c45148cfceda8a3e1956c652bc",
+    "mtime": 1784556752.2660062,
+    "ast_hash": "ce28fb9b7374adca8ed3dd4fa7f0fa56",
     "semantic_hash": ""
   }
 }

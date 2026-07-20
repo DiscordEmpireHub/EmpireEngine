@@ -13,5 +13,8 @@
   "11": "index.ts",
   "12": "tsconfig.json",
   "13": "PhaserGameEngine",
-  "14": "PhaserGameEngine.test.ts"
+  "14": "PhaserGameEngine.test.ts",
+  "15": "package.json",
+  "16": "compilerOptions",
+  "17": "devDependencies"
 }

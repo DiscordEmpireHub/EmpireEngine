@@ -12,4 +12,6 @@ export interface GameEngine {
   animate(params: AnimateParams): void;
   destroyObject(objectId: string): void;
   onSceneReady(listener: () => void): () => void;
+  onObjectClick(objectId: string, listener: () => void): () => void;
+  destroy(): void;
 }

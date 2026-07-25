@@ -3,6 +3,8 @@ import { describe, it, expect, vi, beforeEach } from "vitest";
 interface MockLoader {
   image: ReturnType<typeof vi.fn>;
   spritesheet: ReturnType<typeof vi.fn>;
+  atlasXML: ReturnType<typeof vi.fn>;
+  atlas: ReturnType<typeof vi.fn>;
   audio: ReturnType<typeof vi.fn>;
   tilemapTiledJSON: ReturnType<typeof vi.fn>;
   once: ReturnType<typeof vi.fn>;
@@ -14,6 +16,10 @@ interface MockSprite {
   setRotation: ReturnType<typeof vi.fn>;
   setDepth: ReturnType<typeof vi.fn>;
   destroy: ReturnType<typeof vi.fn>;
+  setInteractive: ReturnType<typeof vi.fn>;
+  on: ReturnType<typeof vi.fn>;
+  off: ReturnType<typeof vi.fn>;
+  input: object | null;
 }
 
 interface BootedScene {
@@ -25,6 +31,7 @@ interface BootedScene {
 }
 
 let lastScene: BootedScene | null = null;
+let lastGame: { destroy: ReturnType<typeof vi.fn> } | null = null;
 
 vi.mock("phaser", () => {
   class MockScene {
@@ -35,6 +42,8 @@ vi.mock("phaser", () => {
   }
 
   class MockGame {
+    destroy = vi.fn();
+
     constructor(config: { scene: InstanceType<typeof MockScene> & { create(): void } }) {
       const scene = config.scene;
       const loadCallbacks = new Map<string, () => void>();
@@ -44,13 +53,23 @@ vi.mock("phaser", () => {
         setRotation: vi.fn(),
         setDepth: vi.fn(),
         destroy: vi.fn(),
+        setInteractive: vi.fn(() => {
+          mockSprite.input = {};
+        }),
+        on: vi.fn(),
+        off: vi.fn(),
+        input: null,
       };
+
+      lastGame = this;
 
       Object.assign(scene, {
         add: { sprite: vi.fn(() => mockSprite) },
         load: {
           image: vi.fn(),
           spritesheet: vi.fn(),
+          atlasXML: vi.fn(),
+          atlas: vi.fn(),
           audio: vi.fn(),
           tilemapTiledJSON: vi.fn(),
           once: vi.fn((event: string, callback: () => void) => {
@@ -73,14 +92,16 @@ vi.mock("phaser", () => {
 });
 
 const { PhaserGameEngine } = await import("./PhaserGameEngine.js");
-const { SceneNotReadyError, ObjectNotFoundError } = await import("./errors.js");
+const { SceneNotReadyError, ObjectNotFoundError, AssetLoadError } = await import("./errors.js");
 
 function createEngine() {
   lastScene = null;
+  lastGame = null;
   const engine = new PhaserGameEngine({ parent: "app", width: 800, height: 600 });
   const scene = lastScene as BootedScene | null;
   if (!scene) throw new Error("test setup failed: scene was not created");
-  return { engine, scene };
+  if (!lastGame) throw new Error("test setup failed: game was not created");
+  return { engine, scene, game: lastGame };
 }
 
 describe("PhaserGameEngine", () => {
@@ -157,6 +178,101 @@ describe("PhaserGameEngine", () => {
 
     const sprite = (scene.add.sprite as ReturnType<typeof vi.fn>).mock.results[0]?.value as MockSprite;
     expect(sprite.destroy).toHaveBeenCalledOnce();
+    expect(() => engine.destroyObject("card-1")).toThrow(ObjectNotFoundError);
+  });
+
+  it("throws ObjectNotFoundError when onObjectClick targets an unknown objectId", () => {
+    const { engine } = createEngine();
+
+    expect(() => engine.onObjectClick("missing", vi.fn())).toThrow(ObjectNotFoundError);
+  });
+
+  it("makes a rendered object interactive and registers a pointerdown listener", () => {
+    const { engine, scene } = createEngine();
+    engine.render({ objectId: "card-1", assetId: "card-ace", x: 0, y: 0 });
+    const sprite = (scene.add.sprite as ReturnType<typeof vi.fn>).mock.results[0]?.value as MockSprite;
+    const listener = vi.fn();
+
+    engine.onObjectClick("card-1", listener);
+
+    expect(sprite.setInteractive).toHaveBeenCalledOnce();
+    expect(sprite.on).toHaveBeenCalledWith("pointerdown", listener);
+  });
+
+  it("does not call setInteractive again if the object is already interactive", () => {
+    const { engine, scene } = createEngine();
+    engine.render({ objectId: "card-1", assetId: "card-ace", x: 0, y: 0 });
+    const sprite = (scene.add.sprite as ReturnType<typeof vi.fn>).mock.results[0]?.value as MockSprite;
+
+    engine.onObjectClick("card-1", vi.fn());
+    engine.onObjectClick("card-1", vi.fn());
+
+    expect(sprite.setInteractive).toHaveBeenCalledOnce();
+  });
+
+  it("returns an unsubscribe function that removes the pointerdown listener", () => {
+    const { engine, scene } = createEngine();
+    engine.render({ objectId: "card-1", assetId: "card-ace", x: 0, y: 0 });
+    const sprite = (scene.add.sprite as ReturnType<typeof vi.fn>).mock.results[0]?.value as MockSprite;
+    const listener = vi.fn();
+
+    const unsubscribe = engine.onObjectClick("card-1", listener);
+    unsubscribe();
+
+    expect(sprite.off).toHaveBeenCalledWith("pointerdown", listener);
+  });
+
+  it("loads an atlas via atlasXML when atlasDataUrl ends with .xml", async () => {
+    const { engine, scene } = createEngine();
+
+    await engine.loadAsset({
+      assetId: "cards-sheet",
+      category: "atlas",
+      url: "/assets/cards-sheet.png",
+      atlasDataUrl: "/assets/cards-sheet.xml",
+    });
+
+    expect(scene.load.atlasXML).toHaveBeenCalledWith(
+      "cards-sheet",
+      "/assets/cards-sheet.png",
+      "/assets/cards-sheet.xml",
+    );
+    expect(scene.load.atlas).not.toHaveBeenCalled();
+  });
+
+  it("loads an atlas via atlas (JSON) when atlasDataUrl does not end with .xml", async () => {
+    const { engine, scene } = createEngine();
+
+    await engine.loadAsset({
+      assetId: "cards-sheet",
+      category: "atlas",
+      url: "/assets/cards-sheet.png",
+      atlasDataUrl: "/assets/cards-sheet.json",
+    });
+
+    expect(scene.load.atlas).toHaveBeenCalledWith(
+      "cards-sheet",
+      "/assets/cards-sheet.png",
+      "/assets/cards-sheet.json",
+    );
+    expect(scene.load.atlasXML).not.toHaveBeenCalled();
+  });
+
+  it("throws AssetLoadError when category is atlas but atlasDataUrl is missing", async () => {
+    const { engine } = createEngine();
+
+    await expect(
+      engine.loadAsset({ assetId: "cards-sheet", category: "atlas", url: "/assets/cards-sheet.png" }),
+    ).rejects.toThrow(AssetLoadError);
+  });
+
+  it("destroys the underlying Phaser.Game and clears tracked objects", () => {
+    const { engine, game } = createEngine();
+    engine.render({ objectId: "card-1", assetId: "card-ace", x: 0, y: 0 });
+
+    engine.destroy();
+
+    expect(game.destroy).toHaveBeenCalledWith(true);
     expect(() => engine.destroyObject("card-1")).toThrow(ObjectNotFoundError);
   });
 });

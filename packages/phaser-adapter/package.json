@@ -1,6 +1,6 @@
 {
   "name": "@empire/engine-phaser-adapter",
-  "version": "0.1.0",
+  "version": "0.3.0",
   "private": true,
   "description": "Implementacao de GameEngine sobre Phaser 3 (PhaserGameEngine). Unico pacote do EmpireEngine que conhece Phaser.",
   "type": "module",

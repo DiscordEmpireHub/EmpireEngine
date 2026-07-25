@@ -23,7 +23,7 @@ export class PhaserGameEngine implements GameEngine {
   private readonly game: Phaser.Game;
   private readonly readyEvents = new EventBus();
   private scene: Phaser.Scene | null = null;
-  private readonly objectsById = new Map<string, Phaser.GameObjects.GameObject>();
+  private readonly objectsById = new Map<string, Phaser.GameObjects.Sprite>();
 
   constructor(config: PhaserGameEngineConfig) {
     const engineScene = new EngineScene({
@@ -52,7 +52,7 @@ export class PhaserGameEngine implements GameEngine {
     return this.scene;
   }
 
-  private requireObject(objectId: string): Phaser.GameObjects.GameObject {
+  private requireObject(objectId: string): Phaser.GameObjects.Sprite {
     const object = this.objectsById.get(objectId);
     if (!object) {
       throw new ObjectNotFoundError(objectId);
@@ -90,6 +90,9 @@ export class PhaserGameEngine implements GameEngine {
           frameHeight: descriptor.frameHeight ?? descriptor.height ?? 0,
         });
         return;
+      case "atlas":
+        this.enqueueAtlas(scene, descriptor);
+        return;
       case "audio":
         scene.load.audio(descriptor.assetId, descriptor.url);
         return;
@@ -101,6 +104,17 @@ export class PhaserGameEngine implements GameEngine {
       case "font":
         scene.load.image(descriptor.assetId, descriptor.url);
         return;
+    }
+  }
+
+  private enqueueAtlas(scene: Phaser.Scene, descriptor: AssetDescriptor): void {
+    if (!descriptor.atlasDataUrl) {
+      throw new AssetLoadError(descriptor.assetId, "category 'atlas' requires atlasDataUrl");
+    }
+    if (descriptor.atlasDataUrl.endsWith(".xml")) {
+      scene.load.atlasXML(descriptor.assetId, descriptor.url, descriptor.atlasDataUrl);
+    } else {
+      scene.load.atlas(descriptor.assetId, descriptor.url, descriptor.atlasDataUrl);
     }
   }
 
@@ -143,5 +157,19 @@ export class PhaserGameEngine implements GameEngine {
     const object = this.requireObject(objectId);
     object.destroy();
     this.objectsById.delete(objectId);
+  }
+
+  onObjectClick(objectId: string, listener: () => void): () => void {
+    const sprite = this.requireObject(objectId);
+    if (!sprite.input) {
+      sprite.setInteractive();
+    }
+    sprite.on("pointerdown", listener);
+    return () => sprite.off("pointerdown", listener);
+  }
+
+  destroy(): void {
+    this.objectsById.clear();
+    this.game.destroy(true);
   }
 }
